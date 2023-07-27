@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "term-paper-project-4"
+version = "0.1.0"
+description = ""
+authors = ["yana <yanaposelenceva@gmail.com>"]
+readme = "README.md"
+packages = [{include = "term_paper_project_4"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.31.0"
+pytest = "^7.4.0"
+pytest-cov = "^4.1.0"
+google-api-python-client = "^2.93.0"
+isodate = "^0.6.1"
+pandas = "^2.0.3"
+openpyxl = "^3.1.2"
+xlsxwriter = "^3.1.2"
+xlrd = "^2.0.1"
+numpy = "^1.25.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
